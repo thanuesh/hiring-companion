@@ -4,7 +4,8 @@ import json
 import re
 
 # Configure Gemini
-ai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+API_KEY = "AIzaSyBCHzSDtCHY4f3CC1nhyG8DWs-NLSuzWMc"
+ai.configure(api_key=API_KEY)
 
 model = ai.GenerativeModel("gemini-2.0-flash-exp")
 

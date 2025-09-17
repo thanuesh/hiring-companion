@@ -3,6 +3,7 @@ import streamlit as st
 from analyzer import analyze_candidate
 from utils import extract_text_from_pdf
 
+
 st.set_page_config(page_title="AI Intern Hiring System", layout="wide")
 
 # Storage for candidate analyses
