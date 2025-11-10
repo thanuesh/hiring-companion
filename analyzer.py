@@ -7,7 +7,7 @@ import re
 API_KEY = "AIzaSyBCHzSDtCHY4f3CC1nhyG8DWs-NLSuzWMc"
 ai.configure(api_key=API_KEY)
 
-model = ai.GenerativeModel("gemini-2.0-flash-exp")
+model = ai.GenerativeModel("gemini-1.5-flash")
 
 def analyze_candidate(resume_text, transcript_text):
     prompt = f"""
