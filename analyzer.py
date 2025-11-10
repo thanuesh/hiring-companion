@@ -4,10 +4,11 @@ import json
 import re
 
 # Configure Gemini
-API_KEY = "AIzaSyBCHzSDtCHY4f3CC1nhyG8DWs-NLSuzWMc"
+API_KEY = "AIzaSyAwv9u_ln4BFXRjqs1Y_1GBXcWcKZXYnC0"
 ai.configure(api_key=API_KEY)
 
-model = ai.GenerativeModel("gemini-1.5-flash")
+model = ai.GenerativeModel("gemini-2.0-flash-exp")
+
 def analyze_candidate(resume_text, transcript_text):
     prompt = f"""
     You are an AI assistant helping to evaluate interns for an AI Education Hub.
